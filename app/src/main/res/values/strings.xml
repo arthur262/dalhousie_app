@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">Dalhousie student help table</string>
+    <string name="Curr_term">Current term: </string>
+    <string name="Curr_term1">2021 fall</string>
+    <string name="Curr_cgpa_text">Current CGPA: </string>
+    <string name="Curr_cgpa">4.0</string>
+    //term1
+    <string name="course_term1">2021 Fall</string>
+    <string name="course_term1_course1">CSCI3110</string>
+    <string name="course_term1_course2">CSCI3110</string>
+    <string name="course_term1_course3">CSCI3110</string>
+    <string name="course_term1_course4">CSCI3110</string>
+    <string name="course_term1_course5">CSCI3110</string>
+    <string name="course_term1_grade1">A</string>
+    <string name="course_term1_grade2">A</string>
+    <string name="course_term1_grade3">A</string>
+    <string name="course_term1_grade4">A</string>
+    <string name="course_term1_grade5">A</string>
+    <string name="course_term1_gpa1">4.0</string>
+    <string name="course_term1_gpa2">4.0</string>
+    <string name="course_term1_gpa3">4.0</string>
+    <string name="course_term1_gpa4">4.0</string>
+    <string name="course_term1_gpa5">4.0</string>
+    //term2
+    <string name="course_term2">2021 Fall</string>
+    <string name="course_term2_course1">CSCI3110</string>
+    <string name="course_term2_course2">CSCI3110</string>
+    <string name="course_term2_course3">CSCI3110</string>
+    <string name="course_term2_course4">CSCI3110</string>
+    <string name="course_term2_course5">CSCI3110</string>
+    <string name="course_term2_grade1">A</string>
+    <string name="course_term2_grade2">A</string>
+    <string name="course_term2_grade3">A</string>
+    <string name="course_term2_grade4">A</string>
+    <string name="course_term2_grade5">A</string>
+    <string name="course_term2_gpa1">4.0</string>
+    <string name="course_term2_gpa2">4.0</string>
+    <string name="course_term2_gpa3">4.0</string>
+    <string name="course_term2_gpa4">4.0</string>
+    <string name="course_term2_gpa5">4.0</string>
+    //term3
+    <string name="course_term3">2021 Fall</string>
+    <string name="course_term3_course1">CSCI3110</string>
+    <string name="course_term3_course2">CSCI3110</string>
+    <string name="course_term3_course3">CSCI3110</string>
+    <string name="course_term3_course4">CSCI3110</string>
+    <string name="course_term3_course5">CSCI3110</string>
+    <string name="course_term3_grade1">A</string>
+    <string name="course_term3_grade2">A</string>
+    <string name="course_term3_grade3">A</string>
+    <string name="course_term3_grade4">A</string>
+    <string name="course_term3_grade5">A</string>
+    <string name="course_term3_gpa1">4.0</string>
+    <string name="course_term3_gpa2">4.0</string>
+    <string name="course_term3_gpa3">4.0</string>
+    <string name="course_term3_gpa4">4.0</string>
+    <string name="course_term3_gpa5">4.0</string>
+
+
+    <string name="curret_course_name1">CSCI3110</string>
+    <string name="course_instructer1">ALEX</string>
+    <string name="course_building1">MACCIN ART</string>
+
+    <array name="test">
+        <item index="0">0</item>
+        <item index="1">1</item>
+        <item index="2">2</item>
+    </array>
+</resources>
