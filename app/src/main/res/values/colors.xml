@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="main_background">@color/white1</color>
-    <color name="main_background_dark">@color/grey3</color>
+    <color name="main_background">@color/green3</color>
+    <color name="main_background_statement">@color/grey3</color>
 
 
     <color name="purple_200">#FFBB86FC</color>
