@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+
     android:visibility="visible"
     app:layout_collapseMode="parallax"
     tools:visibility="visible">
@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="none"
-        app:layout_constraintBottom_toTopOf="@+id/switchbar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -124,7 +123,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="@array/test" />
+                                    android:text="@string/course_term1_course1" />
 
                                 <TextView
                                     android:id="@+id/textViewcontentgrade3.1"
@@ -133,7 +132,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginRight="10dp"
                                     android:layout_weight="1"
-                                    android:text="@array/test" />
+                                    android:text="@string/course_term1_grade1" />
 
                                 <TextView
                                     android:id="@+id/textViewcontentgpa3.1"
@@ -923,15 +922,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/switchbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/grey3"
-        app:menu="@menu/menu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

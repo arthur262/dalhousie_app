@@ -61,10 +61,4 @@
     <string name="curret_course_name1">CSCI3110</string>
     <string name="course_instructer1">ALEX</string>
     <string name="course_building1">MACCIN ART</string>
-
-    <array name="test">
-        <item index="0">0</item>
-        <item index="1">1</item>
-        <item index="2">2</item>
-    </array>
 </resources>
