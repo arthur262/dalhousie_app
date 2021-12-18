@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/futureplan.xml" value="0.16185410334346503" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/futureplan.xml" value="0.33" />
         <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/home.xml" value="0.3079710144927536" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/networksecurity.xml" value="1.566860465116279" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/layout/setting.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/dalhousie_app/app/src/main/res/menu/menu.xml" value="0.2578125" />
       </map>
     </option>
   </component>

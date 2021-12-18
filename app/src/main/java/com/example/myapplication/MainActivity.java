@@ -5,17 +5,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.Window;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
+    WebView web;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        web.findViewById(R.id.web_future);
+        WebSettings webSettings=web.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        web.setWebViewClient(new Callback());
+        web.loadUrl("");
         bottomNavigationView = findViewById(R.id.switchbar);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Home()).commit();
@@ -44,5 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         });
+    }
+
+    private class Callback extends WebViewClient {
+        @Override
+        public boolean shouldOverrideKeyEvent(WebView view, KeyEvent event) {
+            return false;
+        }
     }
 }

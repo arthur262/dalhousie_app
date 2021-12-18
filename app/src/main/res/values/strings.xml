@@ -61,4 +61,15 @@
     <string name="curret_course_name1">CSCI3110</string>
     <string name="course_instructer1">ALEX</string>
     <string name="course_building1">MACCIN ART</string>
+
+
+
+
+    //  Future plan
+    <string name="F_next_semas">next_semaster</string>
+    <string name="F_teacher1">He Meng</string>
+    <string name="F_course1">3110</string>
+    <string name="F_rate">Rate my professor</string>
+    <string name="F_rate_number">4.0</string>
 </resources>
+
